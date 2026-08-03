@@ -5,8 +5,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 
-<meta http-equiv="refresh" content="0; url=https://app.macknified.com/shop/macknifiedai-store">
-<link rel="canonical" href="https://app.macknified.com/shop/macknifiedai-store">
 
 
 <!-- SEO Meta Tags -->
@@ -302,13 +300,12 @@
 })();
 </script>  <link rel="stylesheet" href="styles.css">
 </head>
-<body data-section="redirect">
-<div class="wrap">
-<div class="spinner"></div>
-<p>Loading the Macknified AI Store…</p>
-<p style="margin-top:10px;font-size:13px">If you're not redirected, <a href="https://app.macknified.com/shop/macknifiedai-store">click here</a>.</p>
+<body data-section="store-embed">
+<div class="fallback" id="fallback">
+  <div class="spinner"></div>
+  <p>Loading the Macknified AI Store…</p>
+  <p style="margin-top:10px;font-size:13px">Taking a while? <a href="https://app.macknified.com/shop/macknifiedai-store">Open the store directly</a>.</p>
 </div>
-
-  <script src="script.js"></script>
+<iframe id="storeFrame" src="https://app.macknified.com/shop/macknifiedai-store" title="Macknified AI Store" onload="document.getElementById('fallback').style.display='none'"></iframe>
 </body>
 </html>

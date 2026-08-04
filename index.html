@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
 <!-- SEO Meta Tags -->
@@ -298,18 +299,30 @@
     }
   });
 })();
-</script>
-<script data-widget-config>
-  window.WidgetConfig = {"widgetId":"37114762","launcherType":"tab","primaryColor":"#4890ed","tabPosition":"right","tabLabel":"Chat","customFooterText":"Powered by Macknified AI"};
-</script>
-<script src="https://app.macknified.com/widget.js" data-widget="37114762" async></script>  <link rel="stylesheet" href="styles.css">
+</script>  <link rel="stylesheet" href="styles.css">
 </head>
-<body data-section="store-embed">
-<div class="fallback" id="fallback">
-  <div class="spinner"></div>
-  <p>Loading the Macknified AI Store…</p>
-  <p style="margin-top:10px;font-size:13px">Taking a while? <a href="https://app.macknified.com/shop/macknifiedai-store">Open the store directly</a>.</p>
+<body>
+
+<nav>
+  <a href="https://macknified.com" class="nav-logo">
+    <img src="https://i.ibb.co/Pst2KVgW/macknifiedcirclelogo.png" alt="Macknified AI">
+    <span>Macknified AI</span>
+  </a>
+  <div class="nav-links">
+    <a href="https://macknified.com">Home</a>
+    <a href="https://blog.macknified.com">Blog</a>
+    <a href="https://macknified.com/#contact">Contact</a>
+  </div>
+</nav>
+
+<div class="store-frame-wrap" data-section="store-embed">
+  <div class="fallback" id="fallback">
+    <div class="spinner"></div>
+    <p>Loading the Macknified AI Store…</p>
+    <p style="margin-top:10px;font-size:13px">Taking a while? <a href="https://app.macknified.com/shop/macknifiedai-store">Open the store directly</a>.</p>
+  </div>
+  <iframe id="storeFrame" src="https://app.macknified.com/shop/macknifiedai-store" title="Macknified AI Store" onload="document.getElementById('fallback').style.display='none'"></iframe>
 </div>
-<iframe id="storeFrame" src="https://app.macknified.com/shop/macknifiedai-store" title="Macknified AI Store" onload="document.getElementById('fallback').style.display='none'"></iframe>
+
 </body>
 </html>
